@@ -1,7 +1,7 @@
 // ignore_for_file: use_super_parameters
 
 import 'package:flutter/material.dart';
-import 'package:navacurso/widgets/drawer_header.dart';
+import 'package:navacurso/widgets/spacer.dart';
 
 void main() => runApp(MiBurger());
 
@@ -14,7 +14,7 @@ class MiBurger extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Flutter Curso Nava",
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: MiBurgerDraw(),
+      home: const MySpacer(),
     );
   }
 }
